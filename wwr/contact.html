@@ -22,7 +22,7 @@
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="banner-img" src="images/mountain.jpg" alt="banner">
+                <img id="banner-img" src="#" alt="">
             </div>
         </div>
         <h1 class="faq-h1">
@@ -30,17 +30,14 @@
         </h1>
         <main class="contact-grid">
             <div id="feedback"></div>
-            <form action="/form-page" method="post">
+            <form action="/my-handling-form-page" method="post">
                 <ul>
-                  <p>Required fields are followed by <span aria-label="required">*</span>.</p>
                   <li>
-                    <div>
-                        <label for="username">Name: <span aria-label="required">*</span></label>
-                        <input id="username" type="text" name="username" required />
-                    </div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
                   </li>
                   <li>
-                    <label for="mail">Email: <span aria-label="required">*</span></label>
+                    <label for="mail">Email:</label>
                     <input type="email" id="mail" name="user_email" />
                   </li>
                   <li>
@@ -49,7 +46,7 @@
                   </li>
                   <li class="button">
                     <button type="submit">Send your message</button>
-                  </li>                  
+                  </li>
                 </ul>
               </form>
         </main>
